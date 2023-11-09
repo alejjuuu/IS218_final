@@ -5,7 +5,7 @@ Final IS218
 
 | Date       | Tuesday Sign-in | Thursday Sign-in |
 |------------|-----------------|------------------|
-| Nov 7, 2023|  X   X          |                  |
+| Nov 7, 2023|  X   X          |  X               |
 | Nov 9, 2023|                 |                  |
 | Nov 14, 2023|                |                  |
 | Nov 16, 2023|                |                  |
