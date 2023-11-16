@@ -1,7 +1,7 @@
 # IS218_final
 Final IS218
 
-[Competitive Analysis](markups/competitive_anaylsis.md)
+[Competitive Analysis](markups/competitive_analysis.md)
 
 [SWOT](markups/swot.md)
 
