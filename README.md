@@ -1,6 +1,15 @@
 # IS218_final
 Final IS218
 
+[Competitive Analysis](markups/competitive_anaylsis.md)
+
+[SWOT](markups/swot.md)
+
+[Persona](markups/persona.md)
+
+[Sales Funnel](#)
+
+[User Stories](#)
 
 
 | Date       | Tuesday Sign-in | Thursday Sign-in |
