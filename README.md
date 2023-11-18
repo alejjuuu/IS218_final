@@ -7,9 +7,9 @@ Final IS218
 
 [Persona](markups/persona.md)
 
-[Sales Funnel](#)
+[Sales Funnel](markups/sales_funnel.md)
 
-[User Stories](#)
+[User Stories](markups/user_stories.md)
 
 
 | Date       | Tuesday Sign-in | Thursday Sign-in |
