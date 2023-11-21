@@ -1,36 +1,21 @@
-# Initiative
-Increase user conversion rate in check-out.
+# Top Level User Stories
 
-## Epic - Awareness: Have User become aware of brand 
-1. Find Store while researching
+## Initiative:  
 
-   a) User Story: Website Title — Searches up the site and looks at the search results to find the write site
+Lily is looking for a new brand after finding that her old favorite makeup brand was accused of stealing formulas from their competitors as well (as learning that it was using lead in their formulas) and is looking for a quality makeup brand that takes their product development seriously.
 
-   b) User Story: Metadata — Looks at the site’s description to see if the site has the things the user wants
+## Epic (Awareness) :  
 
-## Epic - Interest
-1. Looks at Hero Section
+Lily looks through makeup blogs to find ethical brands.
 
-   a) User Story: Looks at the hero banner and sees the offering
+## Epic (Interest):  
 
-3. Clicks on Hero Button
+Lily finds “brandName” on the list and with the picture the blog poster showed of the brand, she decides she will visit the site. She is greeted by the hero section and sees the brand message as well as an offer to sign up for email digests and sees that she could get a $50 gift bag for spending over $100 on the store. She is immediately interested. 
 
-   a) User Story: Clicks on the corresponding button to view the offering (link)
+## Epic (Action): 
 
-## Epic - Action
-1. Look at product
+She sees that there is an input form she needs to fill out for the coupon for the $50 gift bag.
 
-   a) User Story: Looks at the product page
+## Epic (Loyalty):   
 
-3. Click on Add to Bag
-
-   a) User Story: Clicks on the “Add to Bag” button
-
-## Epic - Loyalty
-1. Popup
-
-   a) User Story: Popup is shown after checkout about signing up for newsletter
-
-2. Enter Email and Click Enter
-
-   b) User Story: User inputs their email and clicks enter to receive offer
+Lily opens up her email. She scrolls through the email, looking at some of their best-selling products, info about makeup, and then goes to the end to copy the coupon code. She sees that she needs to use the coupon within 30 days, and sees how she could use it after seeing information about their best-selling products in the email.
