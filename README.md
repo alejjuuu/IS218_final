@@ -11,6 +11,8 @@ Final IS218
 
 [User Stories](markups/user_stories.md)
 
+[Designs](markups/designs.md)
+
 
 | Date       | Tuesday Sign-in | Thursday Sign-in |
 |------------|-----------------|------------------|
