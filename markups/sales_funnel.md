@@ -1,27 +1,15 @@
-# Sales Funnel / Customer Journey
+# Awareness: 
 
-1. Awareness
+Search Results, Social Media (Social Proof)
 
-   a) Online Advertisement — User finds website from an ad placed on social media
+# Interest: 
 
-4. Interest
+A hero section about our brand’s purpose in a manner that conveys our brand (Conveys Brand Archetype)
 
-   a) Blogs / Reviews — Looks up the brand and reviews from previous customers
+# Action: 
 
-   b) Enter Website store — Searches up the brand and clicks the first link to the site
+Signing up for weekly emails about (a) new products (b) coupons and offers, and (c) email digests of the science of makeup, makeup tips, etc. —First timers get a $50 gift bag on their order over $100.
 
-6. Action
+# Loyalty: 
 
-   a) View Product — Scrolls through the listing of the homepage and clicks on a product they find interesting
-
-   b) View Reviews — Clicks on the review section to see what others have to say about it
-
-   c) Adds to Bag / Places Order — Adds item to bag and checks out
-
-8. Retention
-
-   a) Newsletter — Popup to ask if they would like to receive updates about the site, weekly articles about makeup tips, etc
-
-   b) Social Media (Campaign w/ incentives) — Popup about current social media raffle to post about the product for the chance for a prize ($50 gift card?)
-
-   c) Word-of-mouth — User receives product, gets complimented and asked about the makeup she’s currently wearing, and talks about the brand
+Promotional email with the coupon is sent to the user, must be redeemed on the site within 30 days. Following emails will include the weekly updates curated by our team.
