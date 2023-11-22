@@ -13,3 +13,9 @@ Signing up for weekly emails about (a) new products (b) coupons and offers, and 
 # Loyalty: 
 
 Promotional email with the coupon is sent to the user, must be redeemed on the site within 30 days. Following emails will include the weekly updates curated by our team.
+
+
+
+
+# SALES FUNNELS
+<img width="1216" alt="image" src="https://github.com/alejjuuu/IS218_final/assets/89930344/02429b12-f747-4f4a-8862-e1f101841ced">
