@@ -9,7 +9,7 @@ Final IS218
 
 [Sales Funnel](markups/sales_funnel.md)
 
-[User Stories](markups/user_stories.md)
+[User Stories*](markups/user_stories.md)
 
 [Designs](markups/designs.md)
 
