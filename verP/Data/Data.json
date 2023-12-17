@@ -1,0 +1,98 @@
+{
+  "hero": {
+    "title": "Sign-up For <br /> Pre-order Bonus",
+    "subtext": "Spend $100, Get $50 Gift Bag"
+  },
+  "links": [
+    {
+      "text": "Product Overview",
+      "href": "#overview"
+    },
+    {
+      "text": "About",
+      "href": "#about"
+    },
+    {
+      "text": "Articles",
+      "href": "#articles"
+    }
+  ],
+  "products": [
+    {
+      "id": "product1",
+      "name": "4E View",
+      "cat": "Lipstick",
+      "price": 19.99,
+      "desc": "A matte lipstick free of parabens and other harsh chemicals that stays on the lips throughout the whole day and night. "
+    }
+  ],
+  "productList": {
+    "items": [
+      {
+        "img": "/product-images/product3.jpg",
+        "title": "Product",
+        "rows": 2,
+        "cols": 2
+      },
+      {
+        "img": "/product-images/product2.png",
+        "title": "B",
+        "rows": 1,
+        "cols": 2
+      },
+      {
+        "img": "/product-images/product4.jpg",
+        "title":  "C"
+      }
+    ]
+  },
+  "about": {
+    "tagline": "Roots in Science, Bloomed Beauty",
+    "tabs": [
+      {
+        "key": "about",
+        "title": "About Us",
+        "imgAlt": "About image",
+        "img": "/about-images/moles.jpg",
+        "header": "We are scientists",
+        "text": "We founded our company because of our passion for makeup and science. We know how to combine ingredients to safely create the pure makeup we imagined. "
+      },
+      {
+        "key": "ingredients",
+        "title": "Our Ingredients",
+        "imgAlt": "Ingredients image",
+        "img": "/about-images/moles.jpg",
+        "header":  "We understand ingredients",
+        "text": "Our ingredients are sourced ethically and our unique formulas are custom-made in our facilities."
+      }
+    ]
+  },
+"articles": [
+  {
+    "id": "001",
+    "title": "Skin Perfect: The Basics",
+    "date": "12/1/23",
+    "text": "<p>This mini-series of articles will teach you the basics of setting up a skincare routine and how to approach your makeup. We will discuss the standard skincare process, and will expand it in detail in our next articles.</p><h3>Step 1: Cleansing</h3><p>Start your skincare routine with a gentle cleanser. Use warm water to wet your face, apply the cleanser in circular motions, and then rinse. This step removes dirt, oil, and makeup from your skin.</p></p><h3>Step 2: Toning</h3><p>After cleansing, apply a toner. Toners help to balance your skin's pH levels and prep your skin for the products that follow. Apply the toner to a cotton pad and gently swipe it over your face.</p></p><h3>Step 3: Serum</h3><p>Serums are concentrated formulas that target specific skin concerns like wrinkles, dark spots, or dehydration. Apply a few drops of serum to your face and gently pat it in.</p></p><h3>Step 4: Moisturizing</h3><p>Moisturizers hydrate your skin and lock in all the products that you've applied. Even if you have oily skin, don't skip this step as it helps to balance your skin's oil production.</p><h3>Step 5: Moisturizing</h3><p>During the day, finish off your routine with a broad-spectrum sunscreen to protect your skin from harmful UV rays. Reapply every two hours when you're out in the sun.</p><p>Remember, everyone's skin is unique, so what works for one person might not work for another. It's important to understand your skin type and concerns to choose the right products. Also, introducing new products one at a time can help you identify any reactions or breakouts. Happy skincare!</p>"
+  }
+],
+  "footer": [
+    {
+      "id": "someID",
+      "style": {},
+      "children": [
+        {"href": "/", "text": "Home"},
+        {"href": "#overview", "text": "Overview"},
+        {"href": "#about", "text": "About"},
+        {"href": "#articles", "text": "Articles"}
+      ]
+    },
+    {
+      "id": "anotherID",
+      "style": {},
+      "children": [
+        {"href": "#", "text": "Cookies"},
+        {"href": "#", "text": "Privacy Policy"}
+      ]
+    }
+  ]
+}
