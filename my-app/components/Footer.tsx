@@ -3,7 +3,7 @@ import * as React from "react";
 const Footer = () => {
   const footerNavs = [
     {
-      href: "javascript:void(0)",
+      href: "/",
       name: "",
     },
   ];
@@ -15,6 +15,7 @@ const Footer = () => {
             <img
               src="https://cdn.discordapp.com/attachments/1171568516235804802/1181718906004590723/foreveryou.png?ex=6582147e&is=656f9f7e&hm=1da73adcd85048e8d399a33f9b8cd13b14129a924f21a0cbe4a4344db804dea5&"
               className="w-32"
+              alt="Website logo"
             />
             <p className="max-w-md">
               Get yourself the best make up ever clinically tested.
