@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({
   children,
-  title = "Alejandro Velasquez Resume 2023",
+  title = "Foreveryou",
 }: LayoutProps) {
   return (
     <>
@@ -19,6 +19,7 @@ export default function RootLayout({
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{title}</title>
+        <meta name="description" content="Foreveryou retail project" />
 
         {/* Remixicon Icon */}
         <link
