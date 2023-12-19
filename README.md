@@ -1,6 +1,8 @@
 # IS218_final
 Final IS218
 
+[VIEW SITE](https://is-218-final-tsz1-alejjuuus-projects.vercel.app/?gtm_debug=1703005740918)
+
 [Competitive Analysis](markups/competitive_analysis.md)
 
 [SWOT](markups/swot.md)
