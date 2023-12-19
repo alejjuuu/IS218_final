@@ -112,14 +112,14 @@ const Tabs2 = () => {
           {/* Countdown Timer */}
           <div className="my-10 text-white z-30">
             <div className="flex flex-wrap items-center justify-center">
-              <div className="h-40 w-44 flex items-center justify-center after:content-[':'] after:ps-5 md:after:ps-12 after:text-2xl after:text-gray-300 after:font-extrabold">
+              <div className="h-40 w-44 flex items-center justify-center after:ps-5 md:after:ps-12 after:text-2xl after:text-gray-300 after:font-extrabold">
                 <div className="text-center">
                   <span className="text-3xl md:text-6xl">{countdown.days}</span>
                   <p className="mt-2">days</p>
                 </div>
               </div>
 
-              <div className="h-40 w-44 flex items-center justify-center after:content-[':'] after:ps-5 md:after:ps-12 after:text-2xl after:text-gray-300 after:font-extrabold">
+              <div className="h-40 w-44 flex items-center justify-center after:ps-5 md:after:ps-12 after:text-2xl after:text-gray-300 after:font-extrabold">
                 <div className="text-center">
                   <span className="text-3xl md:text-6xl">
                     {countdown.hours}
@@ -128,7 +128,7 @@ const Tabs2 = () => {
                 </div>
               </div>
 
-              <div className="h-40 w-44 flex items-center justify-center after:content-[':'] after:ps-5 md:after:ps-12 after:text-2xl after:text-gray-300 after:font-extrabold">
+              <div className="h-40 w-44 flex items-center justify-center after:ps-5 md:after:ps-12 after:text-2xl after:text-gray-300 after:font-extrabold">
                 <div className="text-center">
                   <span className="text-3xl md:text-6xl">
                     {countdown.minutes}
