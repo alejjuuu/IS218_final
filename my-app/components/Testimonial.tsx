@@ -9,7 +9,7 @@ const Testimonial = () => {
       name: "Xiaoxiao Zhou",
       title: "07/12/2023",
       quote:
-        "Finally, a lipstick that's both caring and long-lasting! The Brown shade is my daily go-to. It's moisturizing and stays on all day. Highly recommend!",
+        "WOWWWWW, I love this lipstick! It's so smooth and creamy, and the color is gorgeous. I'm so happy I found this brand!",
     },
     {
       avatar:
@@ -17,7 +17,7 @@ const Testimonial = () => {
       name: "Simon Andrew",
       title: "08/05/2023",
       quote:
-        "These lipsticks are a beauty game-changer. Love the rich Red shade! They're pigmented, long-lasting, and cruelty-free, which is fantastic.",
+        "I love the Luxurious Lips Grower! It's so smooth and creamy, and the color is gorgeous. I'm so happy I found this brand!",
     },
     {
       avatar:
@@ -25,7 +25,7 @@ const Testimonial = () => {
       name: "Michael Worin",
       title: "03/13/2023",
       quote:
-        "Luxurious Lips Grower is a hit with my clients! The White is perfect for bridal looks, and the Red is stunning for evening events.",
+        "Makes my lips look so much fuller and plumper! I love the Luxurious Lips Grower! It's so smooth and creamy, and the color is gorgeous. I'm so happy I found this brand!",
     },
   ];
 
