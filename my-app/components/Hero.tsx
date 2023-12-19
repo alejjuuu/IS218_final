@@ -55,22 +55,22 @@ const Welcome: React.FC = () => {
 
   return (
     <section
-      className="hero-image relative overflow-hidden py-28 px-4 bg-gray-900 md:px-8"
+      className="hero-image relative overflow-hidden py-12 sm:py-20 md:py-28 px-4 bg-gray-900 md:px-8 lg:px-12"
       style={{
         backgroundImage: `url('https://images.unsplash.com/photo-1489278353717-f64c6ee8a4d2?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
-      <div className="max-w-xl mx-auto text-center relative">
+      <div className="max-w-md sm:max-w-lg md:max-w-xl mx-auto text-center relative">
         {/* ... Your existing content ... */}
         <div className="py-4">
-          <h3 className="bg-opacity-50 rounded-lg text-5xl text-white font-bold md:text-6xl p-4">
+          <h3 className="bg-opacity-50 rounded-lg text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white font-bold p-4">
             Clinically Tested Make Up for Your Skin!
           </h3>
-          <p className="text-2xl text-white leading-relaxed mt-3">
-            Rejuvenate the way you look <br></br>with our clinically tested make
-            up
+          <p className="text-lg sm:text-xl md:text-2xl text-white leading-relaxed mt-3">
+            Rejuvenate the way you look <br className="hidden md:block" />
+            with our clinically tested make up
           </p>
         </div>
         <div className="mt-5 items-center justify-center gap-3 sm:flex">

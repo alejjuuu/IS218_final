@@ -3,7 +3,7 @@ import React from "react";
 const Banner = () => {
   return (
     <div className="bg-black">
-      <div className="max-w-screen-xl text-3xl mx-auto px-4 py-3 text-white sm:text-center md:px-8">
+      <div className="max-w-screen-xl text-2xl mx-auto px-4 py-3 text-white sm:text-center md:px-8">
         <p className="font-medium">
           Sign up for 30% OFF Limited Offer{" "}
           {/*}
