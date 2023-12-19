@@ -73,11 +73,11 @@ const Welcome: React.FC = () => {
             with our clinically tested make up
           </p>
         </div>
-        <div className="mt-5 items-center justify-center gap-3 sm:flex">
+        <div className="mt-5 flex items-center justify-center gap-3">
           <button
             type="button"
             onClick={() => setOpen(true)}
-            className="py-4 px-10 bg-red-500 text-white text-4xl font-semibold rounded-lg shadow-md hover:bg-red-700"
+            className="py-2 sm:py-4 px-4 sm:px-10 bg-red-500 text-white text-lg sm:text-4xl font-semibold rounded-lg shadow-md hover:bg-red-700 transition duration-300"
           >
             Get a Free Example
           </button>
