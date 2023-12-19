@@ -7,7 +7,7 @@ const Testimonial = () => {
       avatar:
         "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=2261&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       name: "Xiaoxiao Zhou",
-      title: "2023/12/07",
+      title: "07/12/2023",
       quote:
         "Finally, a lipstick that's both caring and long-lasting! The Brown shade is my daily go-to. It's moisturizing and stays on all day. Highly recommend!",
     },
@@ -15,7 +15,7 @@ const Testimonial = () => {
       avatar:
         "https://images.unsplash.com/photo-1489278353717-f64c6ee8a4d2?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       name: "Simon Andrew",
-      title: "2023/12/12",
+      title: "08/05/2023",
       quote:
         "These lipsticks are a beauty game-changer. Love the rich Red shade! They're pigmented, long-lasting, and cruelty-free, which is fantastic.",
     },
@@ -23,7 +23,7 @@ const Testimonial = () => {
       avatar:
         "https://images.unsplash.com/photo-1525786210598-d527194d3e9a?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       name: "Michael Worin",
-      title: "2023/12/28",
+      title: "03/13/2023",
       quote:
         "Luxurious Lips Grower is a hit with my clients! The White is perfect for bridal looks, and the Red is stunning for evening events.",
     },
@@ -45,9 +45,10 @@ const Testimonial = () => {
               {testimonials.map((testimonial, index) => (
                 <div className="swiper-slide" key={index}>
                   <div className="bg-white shadow text-center rounded px-14 py-10">
-                    <h4 className="text-xl">{testimonial.title}</h4>
-
-                    <div className="flex items-center justify-center gap-1 my-5">
+                    <h5 className=" text-2xl font-medium mt-7">
+                      {testimonial.name}
+                    </h5>
+                    <div className="flex items-center justify-center gap-1 my-4">
                       {Array.from({ length: 5 }, (_, i) => (
                         <svg
                           key={i}
@@ -59,13 +60,11 @@ const Testimonial = () => {
                         </svg>
                       ))}
                     </div>
-
-                    <p className="text-gray-600 leading-relaxed">
+                    <p className="text-2xl text-gray-600 leading-relaxed">
                       {testimonial.quote}
                     </p>
-                    <h5 className="text-base font-medium mt-7">
-                      {testimonial.name}
-                    </h5>
+                    <br></br>
+                    <h4 className="text-xl">{testimonial.title}</h4>
                   </div>
                 </div>
               ))}

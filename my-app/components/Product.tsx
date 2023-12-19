@@ -2,71 +2,90 @@ import { useState } from "react";
 import { RadioGroup } from "@headlessui/react";
 import { FaStar as StarIcon } from "react-icons/fa";
 
-const product = {
-  name: "Luxurios Lips Grower",
-  price: "$350",
-  discountPrice: "$150",
-  href: "#",
-  breadcrumbs: [
-    { id: 1, name: "Women", href: "#" },
-    { id: 2, name: "Formulated Makeup", href: "#" },
-  ],
-  images: [
-    {
-      src: "https://images.unsplash.com/photo-1599733589378-235234c3f052?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      alt: "Two each of gray, white, and black shirts laying flat.",
-    },
-    {
-      src: "https://images.unsplash.com/photo-1625093742435-6fa192b6fb10?q=80&w=1789&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      alt: "Model wearing plain black basic tee.",
-    },
-    {
-      src: "https://images.unsplash.com/photo-1617422275558-e5f616302690?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      alt: "Model wearing plain gray basic tee.",
-    },
-    {
-      src: "https://images.unsplash.com/photo-1611605472181-7962c1c85ed5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      alt: "Model wearing plain white basic tee.",
-    },
-  ],
-  colors: [
-    { name: "White", class: "bg-white", selectedClass: "ring-gray-400" },
-    {
-      name: "Brown Serious",
-      class: "bg-yellow-900",
-      selectedClass: "ring-yellow-800",
-    },
-    { name: "Red Passion", class: "bg-red-500", selectedClass: "ring-red-400" },
-  ],
-  sizes: [
-    { name: "Brown ", inStock: true },
-    { name: "Red ", inStock: true },
-    { name: "Purple ", inStock: true },
-  ],
-  description:
-    'Elevate your beauty routine with "Luxurious Lips Grower," a premium lipstick collection designed for the modern, bold individual. Available in three captivating shades - pristine White, rich Brown, and vibrant Red - each color promises to add a unique touch to your look. Whether youre aiming for a classic elegance, a natural earthy tone, or a daring and bold statement, these shades are tailored to enhance your style and mood.',
-
-  highlights: [
-    "Enriched with nourishing ingredients for lip care",
-    "Long-lasting, vibrant pigmentation",
-    "Smooth and even application",
-    "Cruelty-free and environmentally friendly formulation",
-  ],
-
-  details:
-    'Our "Luxurious Lips Grower" range includes three meticulously crafted shades. The White embodies purity and sophistication, perfect for a subtle yet stylish look. The Brown offers a touch of natural elegance, ideal for both day and night wear. The Red, a symbol of confidence and glamour, is your go-to for making a bold statement. Embrace the versatility of our collection and find the perfect shade to match every occasion and mood. Stay tuned for our exclusive seasonal releases that promise to keep your look fresh and on-trend.',
-};
-const reviews = { href: "#", average: 4.9, totalCount: 1932 };
-const waitlisted = { list: 56043 };
-const stock = { amount: 200 };
-
-function classNames(...classes: string[]): string {
-  return classes.filter(Boolean).join(" ");
-}
-
 function Tabs() {
+  const product = {
+    name: "Luxurios Lips Grower",
+    price: "$350",
+    discountPrice: "$150",
+    href: "#",
+    breadcrumbs: [
+      { id: 1, name: "Women", href: "#" },
+      { id: 2, name: "Formulated Makeup", href: "#" },
+    ],
+    images: [
+      {
+        src: "https://images.unsplash.com/photo-1599733589378-235234c3f052?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        alt: "Two each of gray, white, and black shirts laying flat.",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1625093742435-6fa192b6fb10?q=80&w=1789&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        alt: "Model wearing plain black basic tee.",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1617422275558-e5f616302690?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        alt: "Model wearing plain gray basic tee.",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1611605472181-7962c1c85ed5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        alt: "Model wearing plain white basic tee.",
+      },
+    ],
+    colors: [
+      { name: "White", class: "bg-white", selectedClass: "ring-gray-400" },
+      {
+        name: "Brown Serious",
+        class: "bg-yellow-900",
+        selectedClass: "ring-yellow-800",
+      },
+      {
+        name: "Red Passion",
+        class: "bg-red-500",
+        selectedClass: "ring-red-400",
+      },
+    ],
+    sizes: [
+      { name: "Brown ", inStock: true },
+      { name: "Red ", inStock: true },
+      { name: "Purple ", inStock: true },
+    ],
+    description:
+      'Elevate your beauty routine with "Luxurious Lips Grower," a premium lipstick collection designed for the modern, bold individual. Available in three captivating shades - pristine White, rich Brown, and vibrant Red - each color promises to add a unique touch to your look. Whether youre aiming for a classic elegance, a natural earthy tone, or a daring and bold statement, these shades are tailored to enhance your style and mood.',
+
+    highlights: [
+      "Enriched with nourishing ingredients for lip care",
+      "Long-lasting, vibrant pigmentation",
+      "Smooth and even application",
+      "Cruelty-free and environmentally friendly formulation",
+    ],
+
+    details:
+      'Our "Luxurious Lips Grower" range includes three meticulously crafted shades. The White embodies purity and sophistication, perfect for a subtle yet stylish look. The Brown offers a touch of natural elegance, ideal for both day and night wear. The Red, a symbol of confidence and glamour, is your go-to for making a bold statement. Embrace the versatility of our collection and find the perfect shade to match every occasion and mood. Stay tuned for our exclusive seasonal releases that promise to keep your look fresh and on-trend.',
+  };
+
+  // State for selected color and size
   const [selectedColor, setSelectedColor] = useState(product.colors[0]);
   const [selectedSize, setSelectedSize] = useState(product.sizes[2]);
+
+  // Function to send email
+  const sendEmail = () => {
+    const colorInfo = selectedColor
+      ? `Color Selected: ${selectedColor.name}\n\n`
+      : "";
+
+    const emailBody = encodeURIComponent(
+      `Hello,\n\nI am interested in pre-ordering your product. Here are the details of my preference:\n\n${colorInfo}Product: Luxurious Lips Grower\n\n[YOUR NAME HERE]\n\nThank you!`
+    );
+
+    window.location.href = `mailto:foreverYou@gmail.com?subject=Pre Order Inquiry&body=${emailBody}`;
+  };
+
+  const reviews = { href: "#", average: 4.9, totalCount: 1932 };
+  const waitlisted = { list: 56043 };
+  const stock = { amount: 200 };
+
+  function classNames(...classes: string[]): string {
+    return classes.filter(Boolean).join(" ");
+  }
 
   return (
     <div className="bg-white">
@@ -209,7 +228,7 @@ function Tabs() {
               {/* Sizes */}
 
               <button
-                type="submit"
+                onClick={sendEmail}
                 className="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-red-600 px-8 py-3 text-base font-medium text-white hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
               >
                 Pre Order

@@ -3,9 +3,10 @@ import React from "react";
 const Banner = () => {
   return (
     <div className="bg-black">
-      <div className="max-w-screen-xl mx-auto px-4 py-3 text-white sm:text-center md:px-8">
+      <div className="max-w-screen-xl text-3xl mx-auto px-4 py-3 text-white sm:text-center md:px-8">
         <p className="font-medium">
-          Sign up for 30% OFF today!{" "}
+          Sign up for 30% OFF Limited Offer{" "}
+          {/*}
           <a
             href="javascript:(0)"
             className="font-semibold underline duration-150 hover:text-indigo-100 inline-flex items-center gap-x-1"
@@ -24,6 +25,7 @@ const Banner = () => {
               />
             </svg>
           </a>
+          */}
         </p>
       </div>
     </div>

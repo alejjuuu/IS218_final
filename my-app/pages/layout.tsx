@@ -21,13 +21,13 @@ export default function RootLayout({
         <title>{title}</title>
         <meta name="description" content="Foreveryou retail project" />
 
-
         <link
-            href="assets/css/style.min.css"
-            rel="stylesheet"
-            type="text/css"
+          rel="preload"
+          href={
+            "https://images.unsplash.com/photo-1489278353717-f64c6ee8a4d2?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          }
+          as={"image"}
         />
-        <link rel="preload" href={'https://images.unsplash.com/photo-1489278353717-f64c6ee8a4d2?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'} as={"image"}/>
 
         {/* Remixicon Icon */}
         <link
@@ -54,7 +54,6 @@ export default function RootLayout({
           rel="stylesheet"
           type="text/css"
         /> */}
-
       </Head>
       <div className={inter.className}>{children}</div>{" "}
     </>

@@ -16,7 +16,7 @@ const Tabs2 = () => {
 
   // Function to handle form submission
   // Function to handle form submission
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
 
