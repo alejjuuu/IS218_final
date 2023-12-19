@@ -7,8 +7,8 @@ import Testimonial from "../components/Testimonial";
 import Product from "../components/Product";
 import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";
-import FeaturesSection from "@/components/FeaturesSection";
-import CookieConsentPopup from "@/components/CookieConsentPopup";
+import FeaturesSection from "../components/FeaturesSection";
+import CookieConsentPopup from "../components/CookieConsentPopup";
 import "tailwindcss/tailwind.css";
 
 export default function Home() {
