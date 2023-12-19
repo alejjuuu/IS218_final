@@ -45,6 +45,12 @@ const Testimonial = () => {
               {testimonials.map((testimonial, index) => (
                 <div className="swiper-slide" key={index}>
                   <div className="bg-white shadow text-center rounded px-14 py-10">
+                    {/* Avatar Image */}
+                    <img
+                      src={testimonial.avatar}
+                      alt={testimonial.name}
+                      className="mx-auto h-24 w-24 rounded-full object-cover mb-4" // Tailwind CSS classes for styling
+                    />
                     <h5 className=" text-2xl font-medium mt-7">
                       {testimonial.name}
                     </h5>
