@@ -9,7 +9,6 @@ import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";
 import "tailwindcss/tailwind.css";
 import FeaturesSection from "@/components/FeaturesSection";
-import SocialProof from "@/components/SocialProof";
 import CookieConsentPopup from "@/components/CookieConsentPopup";
 
 export default function Home() {
