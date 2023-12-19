@@ -20,7 +20,7 @@ export default function Home() {
       <Product />
       <Testimonial />
       <Newsletter />
-      <CookieConsentPopup />
+      <CookieConsentPopup measurementId="G-7H0L4L9F7E" />
       <Footer />
 
       {/* Your other components and conten          <SocialProof />
