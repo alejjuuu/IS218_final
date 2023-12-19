@@ -83,10 +83,10 @@ const Tabs2 = () => {
 
   return (
     <section
-      className="h-screen flex justify-center items-center relative rounded- !border-collapse"
+      className="flex flex-col justify-center items-center relative rounded-lg w-full min-h-screen"
       id="home"
     >
-      <div className="overflow-hidden">
+      <div className="w-full">
         <img
           className="absolute inset-0 h-full w-full object-cover bg-cover bg-bottom"
           src="https://images.unsplash.com/photo-1643185539104-3622eb1f0ff6?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
