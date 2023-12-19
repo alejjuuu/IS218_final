@@ -1,8 +1,13 @@
 import React, { useState, useEffect } from "react";
 
 declare function gtag(command: string, ...args: any[]): void;
+const measurementId = "G-7H0L4L9F7E";
 
-const CookieConsentPopup = () => {
+interface CookieConsentPopupProps {
+  measurementId: string; // Specify the type of measurementId as a string
+}
+
+const CookieConsentPopup = ({ measurementId }: CookieConsentPopupProps) => {
   const [showPopup, setShowPopup] = useState(false);
 
   useEffect(() => {
@@ -17,7 +22,7 @@ const CookieConsentPopup = () => {
   const initGoogleAnalytics = () => {
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push(["js", new Date()]);
-    window.dataLayer.push(["config", "G-7H0L4L9F7E"]);
+    window.dataLayer.push(["config", measurementId]); // Use the dynamic measurementId
   };
 
   const handleAccept = () => {

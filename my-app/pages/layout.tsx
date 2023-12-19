@@ -31,16 +31,16 @@ export default function RootLayout({
 
         <script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=UA-253480078-1"
+          src="https://www.googletagmanager.com/gtag/js?id=G-7H0L4L9F7E"
         ></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-7H0L4L9F7E');
-          `,
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-7H0L4L9F7E');
+        `,
           }}
         />
 
