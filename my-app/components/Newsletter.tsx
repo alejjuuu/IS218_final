@@ -83,10 +83,10 @@ const Tabs2 = () => {
 
   return (
     <section
-      className="h-screen flex justify-center items-center relative rounded- !border-collapse"
+      className="flex justify-center items-center relative rounded-lg border-collapse w-full min-h-screen"
       id="home"
     >
-      <div className="overflow-hidden">
+      <div className="w-full">
         <img
           className="absolute inset-0 h-full w-full object-cover bg-cover bg-bottom"
           src="https://images.unsplash.com/photo-1643185539104-3622eb1f0ff6?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -95,9 +95,9 @@ const Tabs2 = () => {
         <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-white-950 to-white-900 opacity-40"></div>
       </div>
 
-      <div className="container">
-        <div className="text-center text-white relative py-9">
-          <h3 className="bg-opacity-50 rounded-lg text-5xl text-white font-bold md:text-6xl p-4">
+      <div className="container mx-auto px-4 text-center">
+        <div className="relative py-4 sm:py-6 lg:py-9">
+          <h3 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white font-bold">
             Coming Soon
           </h3>
           <a href="#" className="flex justify-center mx-auto mb-12">
@@ -149,26 +149,26 @@ const Tabs2 = () => {
           </div>
 
           {/* Subscription Form */}
-          <div className="mt-10 ">
-            <h3 className="text-5xl font-medium text-white-300">
+          <div className="mt-5 md:mt-8 lg:mt-10">
+            <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium text-white">
               Subscribe to get notified!
             </h3>
             <form
               onSubmit={handleSubmit}
-              className="w-full flex items-center justify-center mt-7 "
+              className="w-full flex flex-col sm:flex-row items-center justify-center mt-4 sm:mt-6"
             >
-              <div className="border rounded-md border-neutral-500 shadow-lg">
+              <div className="border rounded-md border-white-500 shadow-lg">
                 <input
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="sm:w-96 p-4 border-0 focus:outline-none focus:ring-0 text-sm bg-transparent"
+                  className="sm:w-96 p-4 border-0 focus:outline-none focus:ring-0 text-sm bg-transparent text-white"
                   placeholder="Enter Your Email"
                   autoComplete="off"
                 />
                 <button
                   type="submit"
-                  className="py-2 px-6 me-2 border-0 text-white font-semibold text-sm rounded-md bg-neutral-800/60 hover:bg-neutral-800 transition-all duration-500"
+                  className="py-2 px-6 me-2 border-0 text-white font-semibold text-sm rounded-md bg-red-800 hover:bg-neutral-900 transition-all duration-500 shadow-md"
                 >
                   <div className="flex items-center justify-center gap-1">
                     <p>Submit</p>
@@ -179,12 +179,10 @@ const Tabs2 = () => {
             </form>
             {/* Display Submission Message */}
             {submissionMessage && (
-              <div className="text-center mt-4 text-3xl">
+              <div className="text-center mt-4 text-1xl sm:text-2xl md:text-3xl lg:text-4xl ">
                 <span
                   className={
-                    isSubmitting
-                      ? "text-yellow-500"
-                      : "text-white-500 test-bold"
+                    isSubmitting ? "text-white" : "text-white test-bold"
                   }
                 >
                   {submissionMessage}
