@@ -29,6 +29,21 @@ export default function RootLayout({
           as={"image"}
         />
 
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=UA-253480078-1"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-253480078-1');
+          `,
+          }}
+        />
+
         {/* Remixicon Icon */}
         <link
           href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
