@@ -17,7 +17,7 @@ const CookieConsentPopup = () => {
   const initGoogleAnalytics = () => {
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push(["js", new Date()]);
-    window.dataLayer.push(["config", "UA-253480078-1"]);
+    window.dataLayer.push(["config", "G-7H0L4L9F7E"]);
   };
 
   const handleAccept = () => {
