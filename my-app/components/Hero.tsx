@@ -7,7 +7,7 @@ const Welcome: React.FC = () => {
 
   return (
     <section
-      className="relative overflow-hidden py-28 px-4 bg-gray-900 md:px-8"
+      className="hero-image relative overflow-hidden py-28 px-4 bg-gray-900 md:px-8"
       style={{
         backgroundImage: `url('https://images.unsplash.com/photo-1489278353717-f64c6ee8a4d2?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')`,
         backgroundSize: "cover",
