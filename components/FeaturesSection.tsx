@@ -46,9 +46,9 @@ const FeaturesSection = () => {
               <p className="text-lg text-gray-500">
                 Trumpcoin offers a thrilling investment opportunity in the
                 volatile cryptocurrency market. With its potential for rapid
-                growth, fueled by media buzz and a strong community, it's more
-                than just a political token—it's a chance to diversify your
-                assets and reap significant returns.
+                growth, fueled by media buzz and a strong community, it&apos;s
+                more than just a political token—it&apos;s a chance to diversify
+                your assets and reap significant returns.
               </p>
               {/* Feature Description */}
               {/* ... */}
@@ -60,9 +60,9 @@ const FeaturesSection = () => {
                 Join the Movement !{" "}
               </h2>
               <p className="text-lg text-gray-500">
-                Trumpcoin is not just an investment; it's a way to participate
-                in a collective expression of ideals and be part of a dynamic
-                digital ecosystem.
+                Trumpcoin is not just an investment; it&apos;s a way to
+                participate in a collective expression of ideals and be part of
+                a dynamic digital ecosystem.
               </p>
               {/* Feature Description */}
               {/* ... */}
